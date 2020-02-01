@@ -1,9 +1,9 @@
 var express = require('express');
 var socket = require('socket.io');
-const { Firestore } = require('@google-cloud/firestore');
+// const { Firestore } = require('@google-cloud/firestore');
 
 // Create a new client
-const firestore = new Firestore();
+// const firestore = new Firestore();
 
 // app start
 
