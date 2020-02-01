@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
     <title>WebSockets</title>
 </head>
+
 <body>
+    <input type="text" , id="group_id" placeholder="Group Id" />
+    <button id="name_group">Name Group</button>
+    <h1 id="group_title"></h1>
+
     <div id="mario-chat">
         <div id="chat-window">
             <div id="output">
@@ -16,10 +22,11 @@
             </div>
             <div id="feedback"></div>
         </div>
-        <input type="text", id="handle" placeholder="Handle" />
-        <input type="text", id="message" placeholder="Message" />
-        <button id="send" >Send</button>
+        <input type="text" , id="handle" placeholder="Handle" />
+        <input type="text" , id="message" placeholder="Message" />
+        <button id="send">Send</button>
     </div>
     <script src="/chat.js"></script>
 </body>
+
 </html>
